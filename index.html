@@ -1,0 +1,263 @@
+<!-- This is the DOCTYPE which is HTML5-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--This is the HEAD which contains the META-DATA, the data that is responsible for the invisible parts of the page such as language and character set.
+
+	It is also where you put FAVICON-->
+<head>
+    <meta charset="UTF-8">
+    <title>mySite uwu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="images/myPicture.png"/>
+    <script src="https://kit.fontawesome.com/cf99b25778.js" crossorigin="anonymous"></script>
+</head>
+
+
+<!--This is the BODY of the page which displays the CONTENTS-->
+<body>
+	<main>
+		<header>
+			<h1>THIS IS MY MAIN CODE <i class="fab fa-audible fa-lg"></i></h1>
+			<nav>
+				<a href="#V">Video</a>
+				<a href="#A">Audio</a>
+				<a href="#T">Table</a>
+			</nav>
+
+		</header>
+
+	<div>
+		<section class="divone">
+			<h2>Unordered list.</h2>
+			<ul>
+				<li>one</li>
+				<li>two</li>
+			</ul>
+
+			<h2>Ordered list.</h2>	
+			<ol style="list-style-type: armenian;">
+				<li>one</li>
+				<li>two</li>
+				<li value="50">three</li>
+				<li>four</li>
+				<li>five</li>
+			</ol>
+
+			<h2>Description list.</h2>
+			<dl>
+				<dt>One</dt>
+				<dd>number one</dd>
+				<dt>Two</dt>
+				<dd>number two</dd>
+			</dl>
+		</section>
+
+		<section class="divone">
+			<h2>Pre-formatted Text and Quotes</h2>
+			<img src="images/qoobee.gif" alt="Waving Qoobee Animation">
+
+<pre>
+<p>
+This is an example
+of a pre-formatted
+text. It is used to
+preserve spaces and 
+line-breaks.
+
+</p>
+
+It uses the style attribute, using the <del>attributes</del> <ins>properties</ins>
+<mark>color, background-color, font-size, text-align, and font-family</mark>.
+</pre>
+
+		</section>
+
+		<section class="divone">
+			<h2>This is an example of a blockquote:</h2>
+			<blockquote cite="www.jblagana.github.io">
+				To be honest, I really don't know what to put here. I just want to apply the blockquote tag so that I will be able to remember this one effectively. So, whatever your thinking about me, be it <i>dumb</i> or <i>stupid</i>, just bear with me for I am still learning. Thank you!
+			</blockquote>
+
+			This one however is just an inline quote: <q>I am an inline quote example. Yey!</q> Its title is <cite>The Quote</cite> by yours truly.
+		</section>
+	</div>
+	
+
+	<div class="TWO">
+		<section class="divtwo">
+			<h2>Sample Button</h2>
+			<button onclick="hey()">Button</button>
+
+			<script>
+				function hey() {
+					alert("Tonton's tummy is big!")
+			}
+			</script>
+
+			<h2>Sample meter</h2>
+				<meter min="0" max="100" value="70" title="70%">70%</meter>
+
+			<h2>Sample progress</h2>
+				<progress max="100" value="90" title="90%">90%</progress>
+
+			<h2>Sample bi-directional override</h2>
+				<ul>
+					<li><bdo dir="rtl">Text from right to left.</bdo></li>
+					<li><bdo dir="ltr">Text from left to right.</bdo></li>
+				</ul>
+		</section>
+
+		<section class="divtwo">
+			<h2>Sample iframe</h2>
+				<iframe src="https://www.google.com/maps/embed?..." width="400" height="400"></iframe>
+		</section>
+	</div>
+
+	<div>
+		<section class="divthree">
+			<h2 id="V">Video Example</h2>
+			<video src="images/spearmansRho.mp4" width="400" controls poster="images/rhoPoster.png">
+				Browser does not support the <code>video</code> element.
+			</video><br>
+			<a href="images/spearmansRho.mp4" target="_blank" download>Download</a> the file.
+		</section>
+		
+
+		<section class="divthree">
+			<h2 id="A">Audio Example</h2>	
+			<audio src="images/theNights.mp3" controls>
+				This is an audio example.
+			</audio>
+		</section>
+
+
+		<section class="divthree">
+			<h2>Video from Youtube</h2>
+			<iframe width="400" height="200" src="https://www.youtube.com/embed/2S0QhGGO1gQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+	</div>
+
+	<div class="THREE">
+		<section class="divfour">
+			<h2 id="T">Sample Table</h2>
+			<table border="3" id="T1">
+				<caption>This is my cute sample table.</caption>
+				<tr>
+					<th colspan="2"></th>
+					<th>Math</th>
+					<th>Physics</th>
+				</tr>
+				<tr>
+					<td rowspan="3">Week 1</td><td>Mon</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Tue</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Wed</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td rowspan="3">Week 2</td><td>Mon</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Tue</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Wed</td><td></td><td></td>
+				</tr>
+			</table>
+		</section>
+
+		<section class="divfour">
+			<h2>Sample Table 2</h2>
+			<table id="T2">
+				<caption>This is my cute sample table.</caption>
+				<tr>
+					<th colspan="2"></th>
+					<th>Math</th>
+					<th>Physics</th>
+				</tr>
+				<tr>
+					<td rowspan="3">Week 1</td><td>Mon</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Tue</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Wed</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td rowspan="3">Week 2</td><td>Mon</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Tue</td><td></td><td></td>
+				</tr>
+				<tr>
+					<td>Wed</td><td></td><td></td>
+				</tr>
+			</table>
+
+		</section>
+	
+		<section class="divfour">
+			<h2>This is an image test section.</h2>
+				<figure>
+					<img src="images/myPicture.png" width="50"/>
+					<figCaption><small>50 pixels</small></figCaption>
+				</figure>
+				<figure>
+					<img src="images/myPicture.png" width="100"/>
+					<figCaption><b>100 pixels</b></figCaption>
+				</figure>
+				<figure>
+					<a href="http://pinterest.com" target="_blank"><img src="images/myPicture.png" width="200" alt=""/></a>
+					<figCaption><i>200 pixels</i></figCaption>
+				</figure>
+		</section>
+	</div>
+
+	<div>
+		<section>
+			<br>
+				<img src="images/myPicture.png" width="350" alt="" usemap="#facemap">
+				<map name="facemap">
+					<area shape="rec" coords="90,240,150,265" onclick="ouch()">
+				</map>
+				<script>
+					function ouch() {
+						alert("Ouch! You clicked my eye!");
+					}
+				</script>
+
+			<details>
+				<summary>Hello! Open me.</summary>
+				<p>Today is <abbr title="Sunday">Sun!</abbr></p>
+			</details>
+		</section>
+	</div>
+	</main>
+
+
+	<footer>
+		<blockquote cite="Jaranjan">"Lezz grind!"</blockquote>
+		&copy; 2021 by <code>Jan Rhey Lagaña</code><br>
+		Visit my site <a href="https://jblagana.github.io/" target="_blank">here</a>.
+
+		<hr>
+		<address>
+			General Santos City<br>
+			South Cotabato<br>
+			Philippines
+		</address><hr>
+		<a href="mailto:jrlagana702@gmail.com?subject=Henlo!&body=Henlo%20again!">Email me</a><br><br>
+		<a href="http://google.com" target="_blank" aria-label="Google"><i class="fab fa-google"></i></a>
+		<a href="http://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+		<a href="http://youtube.com" target="_blank">Youtube</a>
+		<a href="http://twitter.com" target="_blank">Twitter</a><br><br>
+		<a href="#top">Back to Top</a><br>
+		<a href="" onclick="ouch()">Ouch!</a>
+	</footer>
+    
+</body>
+</html>

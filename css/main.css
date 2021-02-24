@@ -1,0 +1,124 @@
+h1{
+	color: #FFFFFF;
+	background-color: #171717;
+	font-family: courier;
+}
+
+header, footer{
+	background-color: yellow;
+	text-align: center;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+}
+
+nav a{
+	display: inline-block;
+	width: 10%;
+	background-color: sandybrown;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+
+body{
+	margin: 4%;
+}
+
+h2{
+	background-color: #171717;
+	color: #FFFFFF;
+}
+
+h2:first-letter{
+	font-size: 40px;
+}
+
+.half{
+	width: 48%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	overflow: auto;
+}
+
+.whole{
+	clear: both;
+}
+
+.divone, .divtwo, .divthree, .divfour{
+	width: 30%;
+	margin-right: 5%;
+	overflow: auto;
+}
+
+.divone:nth-child(3){
+	margin-right: 0;
+}
+
+.divtwo:nth-child(2){
+	width: 65%;
+	margin-right: 0;
+}
+
+.divthree:nth-child(3){
+	margin-right: 0;
+}
+
+.divfour:nth-child(3){
+	margin-right: 0;
+}
+
+video{
+	width: 100%;
+}
+
+iframe{
+	width: 100%
+}
+
+details{
+	font-style: italic;
+}
+
+summary{
+	font-style: normal;
+}
+
+img[src*="qoobee"]{
+	width: 80px;
+}
+
+section{
+	float: left;
+	display: inline-block;
+}
+
+
+div{
+	clear: both;
+	border: 1px solid #171717;
+	margin: 0 0 10% 0;
+}
+
+h2{
+	padding: 0 0 0 3%;
+	transition: background-color 0.5s, border-radius 0.5s, transform 0.5s;
+	transition-timing-function: linear;
+
+}
+
+h2:hover{
+	background-color: crimson;
+	border-radius: 50px;
+	transform: scale(1.05,1.05);
+
+}
+
+h2:active{
+	background-color: chartreuse;
+}
+
